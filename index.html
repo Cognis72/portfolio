@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognis - Advanced AI Solutions & Innovation Portfolio</title>
+    <meta name="description" content="Cognis delivers cutting-edge AI solutions, data analytics platforms, and innovative technology projects. Explore our portfolio of enterprise-grade applications and development roadmap.">
+    <meta name="keywords" content="AI solutions, data analytics, machine learning, cloud platforms, software development, enterprise technology, Cognis">
+    <meta name="author" content="Cognis">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cognis.dev/">
+    <meta property="og:title" content="Cognis - Advanced AI Solutions & Innovation Portfolio">
+    <meta property="og:description" content="Discover cutting-edge AI solutions and innovative technology projects from Cognis. Enterprise-grade applications and development expertise.">
+    <meta property="og:image" content="https://cognis.dev/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://cognis.dev/">
+    <meta property="twitter:title" content="Cognis - Advanced AI Solutions & Innovation Portfolio">
+    <meta property="twitter:description" content="Discover cutting-edge AI solutions and innovative technology projects from Cognis. Enterprise-grade applications and development expertise.">
+    <meta property="twitter:image" content="https://cognis.dev/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Google Fonts for Sci-fi theme -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cognis Development Roadmap",
+  "description": "Interactive roadmap showing Cognis development progress, milestones, and real-time project timeline updates.",
+  "url": "https://cognis.dev/roadmap.html",
+  "inLanguage": "en",
+  "datePublished": "2025-05-10",
+  "dateModified": "2025-06-15",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cognis",
+    "url": "https://cognis.dev"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://cognis.dev"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Roadmap",
+        "item": "https://cognis.dev/roadmap.html"
+      }
+    ]
+  }
+}
+</script>
+
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Cognis</h2>
+                </div>
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li class="nav-item" role="none">
+                        <a href="index.html" class="nav-link active" data-lang="nav-home" role="menuitem">Home</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="roadmap.html" class="nav-link" data-lang="nav-roadmap" role="menuitem">Roadmap</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="project-detail.html" class="nav-link" data-lang="nav-projects" role="menuitem">Projects</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="contact.html" class="nav-link" data-lang="nav-contact" role="menuitem">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+                        <span id="langText">EN</span>
+                    </button>
+                </div>
+                <button class="hamburger" onclick="toggleMenu()" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title" data-lang="hero-title">Welcome to Cognis</h1>
+                    <p class="hero-subtitle" data-lang="hero-subtitle">Innovative projects and cutting-edge solutions</p>
+                    <div class="hero-stats" aria-label="Company statistics">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label" data-lang="stat-projects">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label" data-lang="stat-years">Years</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label" data-lang="stat-clients">Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="section-title" data-lang="projects-title">Featured Projects</h2>
+                <div class="projects-grid" id="projectsGrid" role="list" aria-label="Featured project cards">
+                    <!-- Projects will be dynamically loaded -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cognis</h3>
+                    <p data-lang="footer-description">Building the future with innovative technology solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-lang="footer-links">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html" data-lang="nav-home">Home</a></li>
+                        <li><a href="roadmap.html" data-lang="nav-roadmap">Roadmap</a></li>
+                        <li><a href="project-detail.html" data-lang="nav-projects">Projects</a></li>
+                        <li><a href="contact.html" data-lang="nav-contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-lang="footer-connect">Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cognis. <span data-lang="footer-rights">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
